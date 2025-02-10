@@ -33,7 +33,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           file: ./docker/base/Dockerfile
           tags: |
-            ghcr.io/browserless/base:latest
+            ghcr.io/bmayhew/base:latest
           context: .
           push: true
           platforms: |
@@ -48,7 +48,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           file: ./docker/chromium/Dockerfile
           tags: |
-            ghcr.io/browserless/chromium:latest
+            ghcr.io/bmayhew/chromium:latest
           context: .
           push: true
           platforms: |
@@ -63,7 +63,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           file: ./docker/chrome/Dockerfile
           tags: |
-            ghcr.io/browserless/chrome:latest
+            ghcr.io/bmayhew/chrome:latest
           context: .
           push: true
           platforms: |
@@ -77,7 +77,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           file: ./docker/edge/Dockerfile
           tags: |
-            ghcr.io/browserless/edge:latest
+            ghcr.io/bmayhew/edge:latest
           context: .
           push: true
           platforms: |
@@ -91,7 +91,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           file: ./docker/firefox/Dockerfile
           tags: |
-            ghcr.io/browserless/firefox:latest
+            ghcr.io/bmayhew/firefox:latest
           context: .
           push: true
           platforms: |
@@ -106,7 +106,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           file: ./docker/webkit/Dockerfile
           tags: |
-            ghcr.io/browserless/webkit:latest
+            ghcr.io/bmayhew/webkit:latest
           context: .
           push: true
           platforms: |
@@ -121,7 +121,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           file: ./docker/multi/Dockerfile
           tags: |
-            ghcr.io/browserless/multi:latest
+            ghcr.io/bmayhew/multi:latest
           context: .
           push: true
           platforms: |
