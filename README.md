@@ -4,10 +4,10 @@
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/browserless/chrome)
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/browserless/chrome)
-![Chrome CI](https://github.com/browserless/chrome/actions/workflows/docker-chromium.yml/badge.svg)
-![Firefox CI](https://github.com/browserless/chrome/actions/workflows/docker-firefox.yml/badge.svg)
-![Webkit CI](https://github.com/browserless/chrome/actions/workflows/docker-webkit.yml/badge.svg)
-![Multi CI](https://github.com/browserless/chrome/actions/workflows/docker-multi.yml/badge.svg)
+![Chrome CI](https://github.com/bmayhew/chrome/actions/workflows/docker-chromium.yml/badge.svg)
+![Firefox CI](https://github.com/bmayhew/chrome/actions/workflows/docker-firefox.yml/badge.svg)
+![Webkit CI](https://github.com/bmayhew/chrome/actions/workflows/docker-webkit.yml/badge.svg)
+![Multi CI](https://github.com/bmayhew/chrome/actions/workflows/docker-multi.yml/badge.svg)
 
 > [!NOTE]  
 > Looking to bypass bot detectors and solve captchas? [We would recommend using BrowserQL as our stealthiest option](https://www.browserless.io/feature/browserql).
@@ -16,7 +16,7 @@ Browserless allows remote clients to connect and execute headless work, all insi
 
 We take care of common issues such as missing system-fonts, missing external libraries, and performance improvements, along with edge-cases like downloading files and managing sessions. For details, check out the documentation site built into the project which includes Open API docs.
 
-If you've been struggling to deploy headless browsers without running into issues or bloated resource requirements, then Browserless was built for you. Run the browsers in [our cloud](https://browserless.io/) or your own, [free for non-commercial uses](https://github.com/browserless/browserless#licensing).
+If you've been struggling to deploy headless browsers without running into issues or bloated resource requirements, then Browserless was built for you. Run the browsers in [our cloud](https://browserless.io/) or your own, [free for non-commercial uses](https://github.com/bmayhew/browserless#licensing).
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ If you've been struggling to deploy headless browsers without running into issue
 
 1. [Full documentation site](https://docs.browserless.io/)
 2. [Live Debugger (using browserless.io)](https://chrome.browserless.io/)
-3. [Docker](https://github.com/browserless/browserless/pkgs/container/base)
+3. [Docker](https://github.com/bmayhew/browserless/pkgs/container/base)
 
 ## Features
 
@@ -77,7 +77,7 @@ You still execute the script itself which gives you total control over what libr
 
 1. `docker run -p 3000:3000 ghcr.io/browserless/chromium`
 2. Visit `http://localhost:3000/docs` to see the documentation site.
-3. See more at our [docker package](https://github.com/browserless/browserless/pkgs/container/base).
+3. See more at our [docker package](https://github.com/bmayhew/browserless/pkgs/container/base).
 
 ### Hosting Providers
 
